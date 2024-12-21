@@ -8,9 +8,9 @@ import time
 from telegraph import Telegraph
 
 # bot
-bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("7039723736:AAH_Lml27ej9uFT2c00glQM0um1t3tIFCwc", "") 
+api_hash = os.environ.get(e53eecba602443041994af39d029f3f6", "") 
+api_id = os.environ.get("22416655", "")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 MAXSIZE = 681574400
 telegraph = Telegraph()
